@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react';
 
 function App() {
   return (
     <div>
-      <h1>Hello from CloudNorth Frontend</h1>
+      <h1>Hello from the React Frontend</h1>
     </div>
   );
 }
