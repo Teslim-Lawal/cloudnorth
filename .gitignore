@@ -1,7 +1,21 @@
+# Sensitive files
 *.pem
+.env
+
+# Terraform files
 *.tfstate
 *.tfstate.*
 .terraform/
+
+# Python
 __pycache__/
+
+# Node.js / React
 node_modules/
-.env
+dist/
+build/
+npm-debug.log
+
+# Editor / OS files
+.vscode/
+.DS_Store
