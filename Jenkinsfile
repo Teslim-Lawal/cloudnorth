@@ -36,7 +36,7 @@ pipeline {
     stage('Run Containers') {
       steps {
         sh 'docker run -d -p 5000:5000 --name backend-container backend-app'
-        sh 'docker run -d -p 3000:3000 --name frontend-container frontend-app'
+        sh 'docker run -d -p 3001:3000 --name frontend-container frontend-app'
       }
     }
   }
